@@ -1,4 +1,4 @@
-package br.com.diego.padroesdeprojetos;
+package br.com.diego.padroesdeprojetos.strategy;
 
 import br.com.diego.padroesdeprojetos.strategy.Conta;
 import br.com.diego.padroesdeprojetos.strategy.InvestimentoArrojado;
