@@ -13,7 +13,7 @@ public class RealizadorDeInvestimentosTest {
 		InvestimentoImpl conservador = new InvestimentoConservador();
 		InvestimentoImpl moderado = new InvestimentoModerado();
 
-		Conta conta = new Conta(400, "Teste", 123);
+		Conta conta = new Conta(400, "Teste", 123, 111);
 
 		RealizadorDeInvestimentos realizadorDeInvestimentos = new RealizadorDeInvestimentos();
 		realizadorDeInvestimentos.realizaInvestimento(conta, arrojado);

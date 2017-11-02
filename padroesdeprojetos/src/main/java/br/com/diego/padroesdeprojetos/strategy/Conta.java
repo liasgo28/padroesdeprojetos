@@ -1,10 +1,14 @@
 package br.com.diego.padroesdeprojetos.strategy;
 
+import java.util.Calendar;
+import java.util.Date;
+
 public class Conta {
 	private double saldo;
 	private String nome;
 	private int numero;
 	private int agencia;
+	private Calendar dataAbertura;
 	
 	
 	public double getSaldo() {
@@ -42,6 +46,13 @@ public class Conta {
 	public void setAgencia(int agencia) {
 		this.agencia = agencia;
 	}
+	public Calendar getDataAbertura() {
+		return dataAbertura;
+	}
+	public void setDataAbertura(Calendar dataAbertura) {
+		this.dataAbertura = dataAbertura;
+	}
+	
 	
 	
 }

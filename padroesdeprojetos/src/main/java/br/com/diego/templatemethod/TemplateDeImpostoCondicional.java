@@ -3,7 +3,7 @@ package br.com.diego.templatemethod;
 import br.com.diego.padroesdeprojetos.strategy.Imposto;
 import br.com.diego.padroesdeprojetos.strategy.Orcamento;
 
-public abstract class TemplateDeImpostoCondicional implements Imposto {
+public abstract class TemplateDeImpostoCondicional extends Imposto {
 
 	public double calcula(Orcamento orcamento) {
 		if (deveUsarMaximaTaxacao(orcamento)) {
