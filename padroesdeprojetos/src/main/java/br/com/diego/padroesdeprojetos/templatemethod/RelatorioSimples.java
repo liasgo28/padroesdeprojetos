@@ -1,4 +1,4 @@
-package br.com.diego.templatemethod;
+package br.com.diego.padroesdeprojetos.templatemethod;
 
 import java.util.List;
 

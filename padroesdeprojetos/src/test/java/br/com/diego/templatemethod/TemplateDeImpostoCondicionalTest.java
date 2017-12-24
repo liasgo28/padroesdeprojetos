@@ -2,6 +2,9 @@ package br.com.diego.templatemethod;
 
 import br.com.diego.padroesdeprojetos.strategy.Item;
 import br.com.diego.padroesdeprojetos.strategy.Orcamento;
+import br.com.diego.padroesdeprojetos.templatemethod.ICPP;
+import br.com.diego.padroesdeprojetos.templatemethod.IHIT;
+import br.com.diego.padroesdeprojetos.templatemethod.IKCV;
 
 public class TemplateDeImpostoCondicionalTest {
 	
