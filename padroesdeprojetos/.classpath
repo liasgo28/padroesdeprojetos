@@ -22,5 +22,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/JAVA/LIBS/jfugue-5.0.9.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -18,8 +18,8 @@ public class NotaFiscalBuilder {
 	private List<Item> todosItens = new ArrayList<Item>();
 	private List<AcaoAposGerarNota> todasAcoesASeremExecutadas;
 
-	public NotaFiscalBuilder() {
-		this.todasAcoesASeremExecutadas = new ArrayList<AcaoAposGerarNota>();
+	public NotaFiscalBuilder(List<AcaoAposGerarNota> lista) {
+		this.todasAcoesASeremExecutadas = lista;
 	}
 
 	public NotaFiscal constroi() {
@@ -73,7 +73,5 @@ public class NotaFiscalBuilder {
 		System.out.println("imprimindo notaFiscal");
 	}
 
-	public void adicionaAcao(AcaoAposGerarNota acao) {
-		this.todasAcoesASeremExecutadas.add(acao);
-	}
+	
 }
